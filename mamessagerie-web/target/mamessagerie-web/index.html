@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Messagerie</title>
+		<link rel="stylesheet" type="text/css" href="CSS\v2.css">
+
+		<h1> Ma messagerie Privée</h1>
+		
+		
+    </head>
+
+    <body id="body">
+
+    	
+    
+		 <form name="formul" method="POST" action="MaServlet">
+		 <table>
+		 	<tr>
+	
+				<div>
+			<td>
+				<label for="name"><b>Nom :</label></td>
+				<td><input type="text" id="name" name="user_name"></td>
+			</div>
+			
+			<tr>
+			<div>
+				<td><label for="mail"><b>e-mail:</label></td>
+				<td><input type="text" id="mail" name="user_mail"></td>
+			</div>
+			</tr>
+			<tr>
+			<div>
+				<td><label for="msg"><b>Message :</label></td>
+				<td><input type="text" id="msg" name="user_message"></input></td>
+			</div>
+			</tr>
+			<tr>
+			<td></td><div class="button">
+        <td><input type="submit" id="send" name="user_check" value = "Envoyer le message"  ></td>
+    </div></td>
+    	<p id="add"> </p>
+	</tr>
+			</table>
+		</form>
+		
+		<script src="JAVASCRIPT/gestion_messagerie.js"> 
+			
+
+		</script >
+		
+		 
+	
+    </body>
+</html>
